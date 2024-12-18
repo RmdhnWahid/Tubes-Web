@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Tabel Keranjang */
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background-color: #6c757d;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+form {
+  display: inline;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+  margin: 10px 0;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tombol Lanjutkan Pemesanan */
+button[name="process_order"] {
+  background-color: #28a745;
+  margin-top: 15px;
+}
+
+button[name="process_order"]:hover {
+  background-color: #218838;
+}
